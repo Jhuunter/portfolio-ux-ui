@@ -495,6 +495,7 @@ export function AnswerItDetails({ project }: { project: any }) {
                 loop 
                 muted 
                 playsInline
+                controls
                 className="w-full h-auto block"
               />
               <div className="p-4 bg-muted/20 border-t border-border flex flex-col sm:flex-row items-center justify-center gap-2">
