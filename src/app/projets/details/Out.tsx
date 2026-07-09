@@ -476,7 +476,7 @@ export function OutDetails({ project }: { project: any }) {
         {/* Section: Illustrations 3D */}
         <section className="space-y-12 pt-16 border-t border-border/30">
           <div className="flex flex-col md:flex-row gap-8 items-start">
-            <div className="md:w-1/3 space-y-6 sticky top-24">
+            <div className="md:w-1/3 space-y-6 md:sticky md:top-24">
               <h2 className="text-xl md:text-2xl text-primary font-medium flex items-center justify-center md:justify-start gap-3 mb-4">
                 <span className="text-sm tracking-widest uppercase" style={{ fontFamily: "'DM Mono', monospace" }}>Illustrations 3D</span>
               </h2>

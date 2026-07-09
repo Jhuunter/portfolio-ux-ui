@@ -89,7 +89,7 @@ export default function ProjectPage() {
           </p>
         </header>
 
-        <div className="w-full aspect-[3/1] bg-muted rounded-lg overflow-hidden mb-20">
+        <div className="w-full aspect-[2/1] bg-muted rounded-lg overflow-hidden mb-20">
           <img 
             src={project.coverImage || project.image} 
             alt={project.title} 

@@ -262,7 +262,7 @@ export function EkooDetails({ project }: { project: any }) {
                           />
                         </div>
                         <p 
-                          className={`mt-4 text-center text-sm font-medium transition-all duration-500 ${
+                          className={`mt-8 md:mt-6 text-center text-sm font-medium transition-all duration-500 ${
                             isActive ? "text-foreground opacity-100" : "text-foreground/50 opacity-0 md:opacity-50"
                           }`}
                         >
