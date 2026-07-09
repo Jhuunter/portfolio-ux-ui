@@ -7,7 +7,7 @@ export const projects = [
       "Refonte complète de la plateforme, en collaboration étroite avec l'équipe dev. Repenser l'expérience de bout en bout pour la rendre plus intuitive et plus puissante.",
     tags: ["B2B", "UX Research", "Collaboration dev"],
     image: "/assets/Miniatures/selvitys_project_img.png",
-    coverImage: "/assets/Bannières/banner_selvitys.jpg", // Modifie ici l'image de couverture
+    coverImage: "/assets/Bannieres/banner_selvitys.jpg", // Modifie ici l'image de couverture
     tools: ["Figma", "Notion", "Trello", "Miro", "Hotjar"],
   },
   {
@@ -18,7 +18,7 @@ export const projects = [
       "Refonte complète de l'application mobile dédiée aux répondants de sondages, et de tout ce qui en découle : site vitrine, direction artistique, identité visuelle.",
     tags: ["B2B", "Mobile", "Site vitrine", "Identité visuelle"],
     image: "/assets/Miniatures/answerit_project_img.png",
-    coverImage: "/assets/Bannières/banner_answerit.jpg",
+    coverImage: "/assets/Bannieres/banner_answerit.jpg",
     tools: ["Figma", "Illustrator", "After Effects", "Miro", "Selvitys", "Answer It", "Webflow"],
   },
   {
@@ -29,7 +29,7 @@ export const projects = [
       "Refonte d'un tunnel pour que les clients enregistrent leurs avis, ou pour que les entreprises puissent faire leur description vocale à mettre sur leurs sites (souvent marchands).",
     tags: ["B2B", "B2C", "Web"],
     image: "/assets/Miniatures/ekoo_project_img.png",
-    coverImage: "/assets/Bannières/banner_ekoo.jpg",
+    coverImage: "/assets/Bannieres/banner_ekoo.jpg",
     tools: ["Figma"],
   },
   {
@@ -40,7 +40,7 @@ export const projects = [
       "Refonte UX/UI complète (en suivant une direction artistique imposée) d'une app permettant aux utilisateurs de se signaler dans des bars pour retrouver leurs amis, payer leurs consommations in-app et réserver des « go out » (événements ou sorties).",
     tags: ["B2B", "B2C", "Mobile", "Social"],
     image: "/assets/Miniatures/out_project_img.png",
-    coverImage: "/assets/Bannières/banner_out.jpg?v=2",
+    coverImage: "/assets/Bannieres/banner_out.jpg?v=2",
     tools: ["Figma", "Illustrator"],
   },
   {
@@ -51,7 +51,7 @@ export const projects = [
       "Projet fil rouge lors de ma formation. Création complète de la direction artistique : conception du logo, charte graphique, supports print (flyers), motion design (vidéo du logo) ainsi que le design du site complet et de sa landing page.",
     tags: ["Branding", "Print", "Site web", "Motion Design"],
     image: "/assets/Miniatures/irl_project_img.png",
-    coverImage: "/assets/Bannières/banner_irl.jpg",
+    coverImage: "/assets/Bannieres/banner_irl.jpg",
     tools: ["Figma", "Illustrator", "Photoshop", "After Effects"],
   },
 ];
