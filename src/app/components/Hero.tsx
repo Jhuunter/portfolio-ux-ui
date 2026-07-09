@@ -20,7 +20,7 @@ export const Hero = forwardRef<HTMLDivElement, HeroProps>(({ scrollTo }, ref) =>
     <section
       id="home"
       ref={ref}
-      className="relative min-h-screen flex flex-col justify-center items-center px-6 md:px-12 pt-20 overflow-hidden"
+      className="relative min-h-[100svh] flex flex-col justify-center items-center px-6 md:px-12 pt-24 pb-16 md:pt-20 md:pb-0 overflow-hidden"
       style={{
         backgroundImage: "url('/assets/bg-head.png')",
         backgroundSize: "cover",
