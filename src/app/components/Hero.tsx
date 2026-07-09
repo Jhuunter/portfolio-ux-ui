@@ -60,7 +60,7 @@ export const Hero = forwardRef<HTMLDivElement, HeroProps>(({ scrollTo }, ref) =>
         </div>
 
         {/* Big headline with selection box effect */}
-        <div className="relative inline-block mb-12 mt-4">
+        <div className="relative inline-block mb-12 mt-4 mx-4 md:mx-0">
           {/* Bounding box (custom dashed border via SVG) */}
           <svg className="absolute inset-0 w-full h-full pointer-events-none text-primary" xmlns="http://www.w3.org/2000/svg">
             <rect x="0" y="0" width="100%" height="100%" fill="none" stroke="currentColor" strokeWidth="1.5" strokeDasharray="8 6" />
@@ -73,7 +73,7 @@ export const Hero = forwardRef<HTMLDivElement, HeroProps>(({ scrollTo }, ref) =>
           <div className="absolute -bottom-[5px] -right-[5px] w-[10px] h-[10px] bg-white border-[1.5px] border-primary pointer-events-none" />
 
           <h1
-            className="text-[clamp(3.5rem,10vw,6rem)] font-light leading-[0.92] tracking-tight px-6 py-4 md:px-10 md:py-6"
+            className="text-[clamp(2.75rem,12vw,6rem)] font-light leading-[0.92] tracking-tight px-6 py-4 md:px-10 md:py-6"
             style={{ fontFamily: "'DM Mono', monospace" }}
           >
             Portfolio
