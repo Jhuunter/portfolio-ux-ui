@@ -287,8 +287,8 @@ export function OutDetails({ project }: { project: any }) {
           
           {/* Galerie B2C */}
           <div>
-            <div className="mb-10 text-center md:text-left">
-              <h2 className="text-xl md:text-2xl text-primary font-medium flex items-center justify-center md:justify-start gap-3 mb-4">
+            <div className="mb-10">
+              <h2 className="text-xl md:text-2xl text-primary font-medium flex items-center gap-3 mb-4">
                 <span className="text-sm tracking-widest uppercase" style={{ fontFamily: "'DM Mono', monospace" }}>Application Utilisateur (B2C)</span>
               </h2>
               <div className="text-foreground/70 leading-relaxed space-y-4">
@@ -383,8 +383,8 @@ export function OutDetails({ project }: { project: any }) {
 
           {/* Galerie B2B */}
           <div>
-            <div className="mb-10 text-center md:text-left">
-              <h2 className="text-xl md:text-2xl text-primary font-medium flex items-center justify-center md:justify-start gap-3 mb-4">
+            <div className="mb-10">
+              <h2 className="text-xl md:text-2xl text-primary font-medium flex items-center gap-3 mb-4">
                 <span className="text-sm tracking-widest uppercase" style={{ fontFamily: "'DM Mono', monospace" }}>Application Établissement (B2B)</span>
               </h2>
               <p className="text-foreground/70 leading-relaxed">
@@ -477,7 +477,7 @@ export function OutDetails({ project }: { project: any }) {
         <section className="space-y-12 pt-16 border-t border-border/30">
           <div className="flex flex-col md:flex-row gap-8 items-start">
             <div className="md:w-1/3 space-y-6 md:sticky md:top-24">
-              <h2 className="text-xl md:text-2xl text-primary font-medium flex items-center justify-center md:justify-start gap-3 mb-4">
+              <h2 className="text-xl md:text-2xl text-primary font-medium flex items-center gap-3 mb-4">
                 <span className="text-sm tracking-widest uppercase" style={{ fontFamily: "'DM Mono', monospace" }}>Illustrations 3D</span>
               </h2>
               <p className="text-foreground/70 leading-relaxed">
