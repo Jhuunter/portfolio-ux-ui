@@ -335,7 +335,7 @@ export function OutDetails({ project }: { project: any }) {
                                 apiB2C.scrollTo(index);
                               }
                             }}
-                            className={`relative cursor-pointer transition-all duration-500 ease-out rounded-[1.5rem] md:rounded-[2rem] overflow-hidden border-[4px] md:border-[6px] border-muted/50 aspect-[9/19.5] bg-background ${
+                            className={`relative cursor-pointer transition-all duration-500 ease-out rounded-[1.75rem] md:rounded-[2.25rem] overflow-hidden border-[4px] md:border-[6px] border-muted/50 aspect-[9/19.5] bg-background ${
                               isActive 
                                 ? "scale-105 z-20 shadow-2xl opacity-100 ring-4 ring-primary/10" 
                                 : "scale-95 z-10 opacity-50 hover:opacity-80 shadow-md"
@@ -426,7 +426,7 @@ export function OutDetails({ project }: { project: any }) {
                                 apiB2B.scrollTo(index);
                               }
                             }}
-                            className={`relative cursor-pointer transition-all duration-500 ease-out rounded-[1.5rem] md:rounded-[2rem] overflow-hidden border-[4px] md:border-[6px] border-muted/50 aspect-[9/19.5] bg-background ${
+                            className={`relative cursor-pointer transition-all duration-500 ease-out rounded-[1.75rem] md:rounded-[2.25rem] overflow-hidden border-[4px] md:border-[6px] border-muted/50 aspect-[9/19.5] bg-background ${
                               isActive 
                                 ? "scale-105 z-20 shadow-2xl opacity-100 ring-4 ring-primary/10" 
                                 : "scale-95 z-10 opacity-50 hover:opacity-80 shadow-md"
