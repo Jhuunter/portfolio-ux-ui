@@ -268,7 +268,7 @@ export function AnswerItDetails({ project }: { project: any }) {
                     <div className="absolute top-0 left-0 w-2 h-full bg-primary"></div>
                     <h4 className="text-primary font-bold text-sm tracking-widest uppercase mb-4">Problématique</h4>
                     <p className="text-lg md:text-xl font-medium text-foreground leading-relaxed">
-                      "Comment refondre Answer It pour améliorer l'expérience et l'engagement, diversifier les profils et renforcer les récompenses, tout en réduisant la dépendance aux outils externes ?"
+                      "Comment refondre Answer It pour en faire un véritable levier d'acquisition et de rétention, en créant une expérience suffisamment fluide, moderne et gratifiante pour fidéliser massivement les utilisateurs au quotidien ?"
                     </p>
                   </div>
                 </div>

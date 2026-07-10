@@ -87,7 +87,7 @@ Pour y répondre, l'effort de conception s'est concentré sur la refonte complè
             <div className="flex flex-col gap-6">
               <div className="rounded-xl overflow-hidden border border-border/50 bg-muted/20 shadow-sm flex items-center justify-center p-4">
                 <ZoomableImage 
-                  src="/assets/SELVITYS/variables.png" 
+                  src="/assets/SELVITYS/variables.jpg" 
                   alt="Variables du Design System" 
                   className="w-full h-auto object-contain rounded"
                 />
@@ -106,7 +106,7 @@ Pour y répondre, l'effort de conception s'est concentré sur la refonte complè
             <div className="rounded-xl border border-border/50 bg-muted/20 shadow-sm min-h-[300px] p-4 flex">
               <div className="relative w-full h-full overflow-hidden rounded">
                 <ZoomableImage 
-                  src="/assets/SELVITYS/button_ds.png" 
+                  src="/assets/SELVITYS/button_ds.jpg" 
                   alt="Composants boutons du Design System" 
                   className="absolute inset-0 w-full h-full object-cover object-top"
                 />
@@ -186,6 +186,14 @@ Pour y répondre, l'effort de conception s'est concentré sur la refonte complè
               <p>
                 Cette anticipation s'est avérée cruciale : de nouvelles demandes clients sont apparues en cours de création, et la structure modulaire que j'avais imaginée a permis de les intégrer naturellement et sans friction.
               </p>
+              
+              <div className="mt-8 rounded-xl border border-border/50 bg-muted/20 shadow-sm p-4 flex items-center justify-center">
+                <ZoomableImage 
+                  src="/assets/SELVITYS/figma_plan.jpg" 
+                  alt="Plan d'architecture modulaire sur Figma" 
+                  className="w-full h-auto object-contain rounded"
+                />
+              </div>
             </div>
 
             <div className="pt-8 border-t border-border/40 first:pt-0 first:border-0">
@@ -203,19 +211,21 @@ Pour y répondre, l'effort de conception s'est concentré sur la refonte complè
 
           </div>
           <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
-            <div className="rounded-xl border border-border/50 bg-muted/20 shadow-sm p-4 flex items-center justify-center">
+            <div className="rounded-xl border border-border/50 bg-muted/20 shadow-sm p-4 flex flex-col items-center justify-center">
               <ZoomableImage 
-                src="/assets/SELVITYS/builder_img.png" 
+                src="/assets/SELVITYS/builder_img.jpg" 
                 alt="Interface du Builder Selvitys" 
                 className="w-full h-auto object-contain rounded"
               />
+              <p className="mt-4 text-sm text-foreground/70 text-center">Interface globale du nouveau Builder</p>
             </div>
-            <div className="rounded-xl border border-border/50 bg-muted/20 shadow-sm p-4 flex items-center justify-center">
+            <div className="rounded-xl border border-border/50 bg-muted/20 shadow-sm p-4 flex flex-col items-center justify-center">
               <ZoomableImage 
-                src="/assets/SELVITYS/builder_questions_img.png" 
+                src="/assets/SELVITYS/builder_questions_img.jpg" 
                 alt="Questions du Builder Selvitys" 
                 className="w-full h-auto object-contain rounded"
               />
+              <p className="mt-4 text-sm text-foreground/70 text-center">Modale d'ajout de questions</p>
             </div>
           </div>
         </section>
