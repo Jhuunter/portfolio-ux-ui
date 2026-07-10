@@ -2,7 +2,7 @@ import { SectionTitle } from "./SectionTitle";
 
 export function Process() {
   return (
-    <section id="methode" className="py-32 px-6 md:px-12">
+    <section id="methode" className="py-16 md:py-32 px-6 md:px-12">
       <div className="max-w-[1200px] mx-auto">
         <SectionTitle title="— 03 / Méthode">
           <h2 className="text-4xl md:text-5xl font-light mt-2 tracking-tight">

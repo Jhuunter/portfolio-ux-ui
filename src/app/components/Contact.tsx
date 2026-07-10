@@ -6,7 +6,7 @@ export function Contact() {
   return (
     <section
       id="contact"
-      className="py-32 px-6 md:px-12"
+      className="py-16 md:py-32 px-6 md:px-12"
       style={{ background: "linear-gradient(135deg, #060E0C 0%, #0D2520 45%, #163830 100%)" }}
     >
       <div className="max-w-[1200px] mx-auto">

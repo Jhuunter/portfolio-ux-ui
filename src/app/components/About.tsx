@@ -2,7 +2,7 @@ import { SectionTitle } from "./SectionTitle";
 
 export function About() {
   return (
-    <section id="apropos" className="py-32 px-6 md:px-12 bg-card">
+    <section id="apropos" className="py-16 md:py-32 px-6 md:px-12 bg-card">
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-12 gap-16">
         {/* Left */}
         <div className="md:col-span-5 flex flex-col">

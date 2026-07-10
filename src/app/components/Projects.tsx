@@ -5,7 +5,7 @@ import { SectionTitle } from "./SectionTitle";
 
 export function Projects() {
   return (
-    <section id="projets" className="py-32 px-6 md:px-12">
+    <section id="projets" className="py-16 md:py-32 px-6 md:px-12">
       <div className="max-w-[1200px] mx-auto">
         {/* Section header */}
         <SectionTitle title="— 01 / Mes projets" subtitle="2024 — Aujourd'hui" />

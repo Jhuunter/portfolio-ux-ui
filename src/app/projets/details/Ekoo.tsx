@@ -203,7 +203,7 @@ export function EkooDetails({ project }: { project: any }) {
             </div>
           </div>
 
-          <div className="mt-16 w-full relative -mx-4 px-4 md:mx-0 md:px-0">
+          <div className="mt-16 w-full relative">
             <Carousel 
               setApi={setApi}
               opts={{ 
