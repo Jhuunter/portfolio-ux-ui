@@ -79,13 +79,13 @@ export function About() {
                     period: "2026 — Aujourd'hui",
                     role: "Freelance UX/UI Designer",
                     company: "Indépendante",
-                    desc: "Création et refonte de plateformes et d'applications web et mobiles.",
+                    desc: "Création/refonte de plateformes et d'applications web/mobiles et de sites web.",
                   },
                   {
                     period: "2025 — 2026",
                     role: "Product Designer",
                     company: "Selvitys",
-                    desc: "Refonte d'une plateforme web B2B et d'une app mobile.",
+                    desc: "Refonte d'une plateforme web B2B et d'une app mobile, création d'outils internes et de sections pour le site web.",
                   },
                   {
                     period: "2025 — 2026",

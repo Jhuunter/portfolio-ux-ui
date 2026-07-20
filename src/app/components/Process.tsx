@@ -30,7 +30,7 @@ export function Process() {
             {
               n: "04",
               title: "Validation",
-              desc: "Tests utilisateurs, A/B testing, mesure des KPIs. Le lancement n'est pas la fin, c'est le début de l'optimisation.",
+              desc: "Tests et retours utilisateurs. Je vérifie la fluidité de l'interface en conditions réelles et j'ajuste les derniers détails.",
             },
           ].map((step) => (
             <div
