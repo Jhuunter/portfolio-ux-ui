@@ -36,7 +36,7 @@ export function MuseeIrlDetails({ project }: { project: any }) {
           
           {/* Colonne Gauche : Objectifs */}
           <div>
-            <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Objectifs principaux</h3>
+            <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Objectifs principaux</h3>
             <ul className="list-disc pl-4 space-y-3 text-sm text-foreground/80 leading-relaxed">
               <li><strong>Direction Artistique :</strong> Définir l'identité visuelle d'un musée novateur (couleurs, typographies, univers).</li>
               <li><strong>Création d'expérience :</strong> Transmettre l'aspect scientifique et technologique (hologrammes, vidéo mapping, planètes, dinosaures) à travers le design.</li>
@@ -48,13 +48,13 @@ export function MuseeIrlDetails({ project }: { project: any }) {
           <div className="space-y-10">
             {/* Mon rôle */}
             <div>
-              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Mon rôle</h3>
+              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Mon rôle</h3>
               <p className="text-sm text-foreground/80 leading-relaxed"><strong>Direction Artistique & UI/UX Design.</strong> Projet réalisé en autonomie complète (conception conceptuelle et design visuel).</p>
             </div>
             
             {/* Outils */}
             <div>
-              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Outils</h3>
+              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Outils</h3>
               <div className="flex flex-wrap gap-2">
                 {project.tools?.map((tool: string) => (
                   <div key={tool} title={tool} className="h-10 px-3 rounded-lg bg-background border border-border flex items-center gap-2.5">

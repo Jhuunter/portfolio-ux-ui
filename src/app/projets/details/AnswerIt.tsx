@@ -101,7 +101,7 @@ export function AnswerItDetails({ project }: { project: any }) {
           
           {/* Colonne Gauche : Objectifs */}
           <div>
-            <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Objectifs principaux</h3>
+            <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Objectifs principaux</h3>
             <ul className="list-disc pl-4 space-y-3 text-sm text-foreground/80 leading-relaxed">
               <li><strong>Acquisition & Rétention (Business) :</strong> Rendre l'application ultra-attractive pour attirer massivement de nouveaux répondants et les fidéliser au quotidien.</li>
               <li><strong>Gamification & Gratification :</strong> Valoriser visuellement le système de coins et de cartes cadeaux pour maximiser l'engagement.</li>
@@ -114,7 +114,7 @@ export function AnswerItDetails({ project }: { project: any }) {
           <div className="space-y-10">
             {/* Mon rôle */}
             <div>
-              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Mon rôle</h3>
+              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Mon rôle</h3>
               <p className="text-sm text-foreground/80 leading-relaxed"><strong>Product / UI-UX Designer.</strong> En tant que Product / UI-UX Designer, j'ai piloté l'intégralité du projet de refonte de bout en bout :</p>
               <ul className="list-disc pl-4 mt-3 space-y-2 text-sm text-foreground/80 leading-relaxed">
                 <li><strong>Branding & Identité :</strong> Création complète de la nouvelle charte graphique, incluant le nouveau logo et l'univers de marque.</li>
@@ -125,7 +125,7 @@ export function AnswerItDetails({ project }: { project: any }) {
             
             {/* Outils */}
             <div>
-              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Outils</h3>
+              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Outils</h3>
               <div className="flex flex-wrap gap-2">
                 {project.tools?.map((tool: string) => (
                   <div key={tool} title={tool} className="h-10 px-3 rounded-lg bg-background border border-border flex items-center gap-2.5">

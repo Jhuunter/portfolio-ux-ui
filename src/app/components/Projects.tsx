@@ -46,7 +46,7 @@ export function Projects() {
                     {p.tags.map((t) => (
                       <span
                         key={t}
-                        className="text-xs px-4 py-1.5 text-foreground/80"
+                        className="text-sm px-5 py-2 text-foreground/80"
                         style={{ 
                           fontFamily: "'DM Mono', monospace",
                           borderRadius: "225px",

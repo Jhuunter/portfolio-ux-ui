@@ -106,7 +106,7 @@ export function EkooDetails({ project }: { project: any }) {
           
           {/* Colonne Gauche : Objectifs */}
           <div>
-            <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Objectifs principaux</h3>
+            <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Objectifs principaux</h3>
             <ul className="list-disc pl-4 space-y-3 text-sm text-foreground/80 leading-relaxed">
               <li><strong>Créer une nouvelle DA Premium :</strong> Repenser l'univers visuel à partir d'une page blanche avec un design moderne, épuré et engageant.</li>
               <li><strong>Concevoir un système flexible (White-Label) :</strong> Structurer les composants de l'interface pour permettre une intégration dynamique et sans couture des couleurs de chaque marque cliente.</li>
@@ -118,7 +118,7 @@ export function EkooDetails({ project }: { project: any }) {
           <div className="space-y-10">
             {/* Mon rôle */}
             <div>
-              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Mon rôle</h3>
+              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Mon rôle</h3>
               <p className="text-sm text-foreground/80 leading-relaxed">
                 <strong>Product / UI-UX Designer.</strong> J'ai piloté l'intégralité de cette refonte stratégique : Direction Artistique (création d'un univers visuel moderne et premium), Conception Modulaire (structuration marque blanche pour couleurs dynamiques), et Optimisation UX (simplification des parcours de captation, réécoute et validation B2B/B2C).
               </p>
@@ -126,7 +126,7 @@ export function EkooDetails({ project }: { project: any }) {
             
             {/* Outils */}
             <div>
-              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Outils</h3>
+              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Outils</h3>
               <div className="flex flex-wrap gap-2">
                 {project.tools?.map((tool: string) => (
                   <div key={tool} title={tool} className="h-10 px-3 rounded-lg bg-background border border-border flex items-center gap-2.5">

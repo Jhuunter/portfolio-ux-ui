@@ -163,7 +163,7 @@ export function OutDetails({ project }: { project: any }) {
           
           {/* Colonne Gauche : Objectifs */}
           <div>
-            <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Objectifs principaux</h3>
+            <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Objectifs principaux</h3>
             <ul className="list-disc pl-4 space-y-3 text-sm text-foreground/80 leading-relaxed">
               <li><strong>Intégration de la nouveauté (GO OUT) :</strong> Concevoir et intégrer la fonctionnalité de réservation de sorties à l'avance.</li>
               <li><strong>Mise en valeur de la billetterie :</strong> Intégrer de façon optimale la fonctionnalité existante d'achat de billets d'événements, véritable moteur de monétisation de l'app, pour sécuriser la conversion.</li>
@@ -176,7 +176,7 @@ export function OutDetails({ project }: { project: any }) {
           <div className="space-y-10">
             {/* Mon rôle */}
             <div>
-              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Mon rôle</h3>
+              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Mon rôle</h3>
               <p className="text-sm text-foreground/80 leading-relaxed">
                 <strong>UX/UI Designer.</strong> J'ai piloté l'intégration de nouvelles fonctionnalités majeures (feed social, billetterie) tout en repensant les parcours clés (onboarding, inscription). Le défi était de dynamiser l'expérience globale pour maximiser l'engagement quotidien des utilisateurs et sécuriser les flux de conversion, le tout en respectant une direction artistique imposée.
               </p>
@@ -184,7 +184,7 @@ export function OutDetails({ project }: { project: any }) {
             
             {/* Outils */}
             <div>
-              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Outils</h3>
+              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Outils</h3>
               <div className="flex flex-wrap gap-2">
                 {project.tools?.map((tool: string) => (
                   <div key={tool} title={tool} className="h-10 px-3 rounded-lg bg-background border border-border flex items-center gap-2.5">

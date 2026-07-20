@@ -27,7 +27,7 @@ Pour y répondre, l'effort de conception s'est concentré sur la refonte complè
           
           {/* Colonne Gauche : Objectifs */}
           <div>
-            <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Objectifs principaux</h3>
+            <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Objectifs principaux</h3>
             <ul className="list-disc pl-4 space-y-3 text-sm text-foreground/80 leading-relaxed">
               <li><strong>Simplifier le Builder (Priorité UX) :</strong> Supprimer les blocages et les "bricolages" pour rendre la création de sondages intuitive et rapide.</li>
               <li><strong>Moderniser l'UI :</strong> Harmoniser la plateforme (connexion, listes) avec un design SaaS épuré pour valoriser l'image de marque du produit.</li>
@@ -40,13 +40,13 @@ Pour y répondre, l'effort de conception s'est concentré sur la refonte complè
           <div className="space-y-10">
             {/* Mon rôle */}
             <div>
-              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Mon rôle</h3>
+              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Mon rôle</h3>
               <p className="text-sm text-foreground/80 leading-relaxed"><strong>Product / UI-UX Designer.</strong> J’ai piloté la restructuration complète de l'architecture de l'information (UX) et conçu l'interface finale (UI) en veillant à sa parfaite faisabilité technique pour l'intégration front-end.</p>
             </div>
             
             {/* Outils */}
             <div>
-              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs" style={{ fontFamily: "'DM Mono', monospace" }}>Outils</h3>
+              <h3 className="text-primary font-medium mb-4 uppercase tracking-widest text-xs md:text-sm" style={{ fontFamily: "'DM Mono', monospace" }}>Outils</h3>
               <div className="flex flex-wrap gap-2">
                 {project.tools?.map((tool: string) => (
                   <div key={tool} title={tool} className="h-10 px-3 rounded-lg bg-background border border-border flex items-center gap-2.5">
@@ -128,7 +128,7 @@ Pour y répondre, l'effort de conception s'est concentré sur la refonte complè
             
             <div className="pt-8 border-t border-border/40 first:pt-0 first:border-0">
               <h3 className="text-xl md:text-2xl font-medium mb-6 text-foreground tracking-tight">
-                Mon Approche : Immersion et Synthèse des besoins
+                Mon approche : Immersion et synthèse des besoins
               </h3>
               <p className="mb-8">Mon travail a débuté par une phase d'investigation approfondie à 360° :</p>
               
@@ -178,7 +178,7 @@ Pour y répondre, l'effort de conception s'est concentré sur la refonte complè
 
             <div className="pt-8 border-t border-border/40 first:pt-0 first:border-0">
               <h3 className="text-xl md:text-2xl font-medium mb-6 text-foreground tracking-tight">
-                La Solution : Un Builder modulaire et scalable
+                La solution : Un builder modulaire et scalable
               </h3>
               <p className="mb-4">
                 Dès le début de la phase de conception, mon mot d'ordre a été la scalabilité. Sachant que la plateforme Selvitys était amenée à s'enrichir constamment, l'architecture du nouveau builder devait être pensée pour accueillir de futures fonctionnalités expertes sans casser l'expérience utilisateur.
@@ -198,7 +198,7 @@ Pour y répondre, l'effort de conception s'est concentré sur la refonte complè
 
             <div className="pt-8 border-t border-border/40 first:pt-0 first:border-0">
               <h3 className="text-xl md:text-2xl font-medium mb-6 text-foreground tracking-tight">
-                Déploiement et Résultats
+                Déploiement et résultats
               </h3>
               <p className="mb-4">
                 Après une phase intensive de construction et de tests, le nouveau builder a été déployé en production.
@@ -236,7 +236,7 @@ Pour y répondre, l'effort de conception s'est concentré sur la refonte complè
             <h2 className="text-xl md:text-2xl text-primary font-medium flex items-center gap-3">
               <span className="text-sm tracking-widest uppercase" style={{ fontFamily: "'DM Mono', monospace" }}>Partie 03</span>
               <span className="text-primary/50">—</span>
-              <span>Analyse des Résultats des sondages</span>
+              <span>Analyse des résultats des sondages</span>
             </h2>
           </div>
           <div className="space-y-12 text-foreground/60 leading-relaxed mt-6">
@@ -255,7 +255,7 @@ Pour y répondre, l'effort de conception s'est concentré sur la refonte complè
 
             <div className="pt-8 border-t border-border/40 first:pt-0 first:border-0">
               <h3 className="text-xl md:text-2xl font-medium mb-6 text-foreground tracking-tight">
-                Refonte de l'interface et Nouvelles fonctionnalités
+                Refonte de l'interface et nouvelles fonctionnalités
               </h3>
               <p className="mb-4">
                 Mon travail s'est concentré sur deux axes : la modernisation de l'UI globale de la page des résultats pour la rendre plus lisible, et surtout l'amélioration de l'affichage complexe des tris croisés, qui représentait un enjeu majeur d'ergonomie.

@@ -1,4 +1,4 @@
-import { forwardRef, useState, useEffect } from "react";
+import { forwardRef, useState, useEffect, Fragment } from "react";
 import { ArrowDown } from "lucide-react";
 
 interface HeroProps {
@@ -47,43 +47,100 @@ export const Hero = forwardRef<HTMLDivElement, HeroProps>(({ scrollTo }, ref) =>
       >
         {/* Role tag */}
         <div
-          className="inline-flex items-center justify-center gap-3 mb-8 text-xs tracking-widest uppercase text-primary"
+          className="inline-flex items-center justify-center gap-3 mb-8 text-sm tracking-widest uppercase text-primary"
           style={{ fontFamily: "'DM Mono', monospace" }}
         >
-          <span className="w-6 h-px bg-primary inline-block shrink-0" />
+          <span className="w-8 h-px bg-primary inline-block shrink-0" />
           <span className="flex flex-col md:flex-row items-center gap-1 md:gap-2 text-center">
             <span>Justine Letho Duclos</span>
             <span className="hidden md:inline">-</span>
             <span>UX/UI Designer</span>
           </span>
-          <span className="w-6 h-px bg-primary inline-block shrink-0" />
+          <span className="w-8 h-px bg-primary inline-block shrink-0" />
         </div>
 
-        {/* Big headline with selection box effect */}
-        <div className="relative inline-block mb-12 mt-4 mx-4 md:mx-0">
-          {/* Bounding box (custom dashed border via SVG) */}
-          <svg className="absolute inset-0 w-full h-full pointer-events-none text-primary" xmlns="http://www.w3.org/2000/svg">
-            <rect x="0" y="0" width="100%" height="100%" fill="none" stroke="currentColor" strokeWidth="1.5" strokeDasharray="8 6" />
-          </svg>
-          
-          {/* Handles */}
-          <div className="absolute -top-[5px] -left-[5px] w-[10px] h-[10px] bg-white border-[1.5px] border-primary pointer-events-none" />
-          <div className="absolute -top-[5px] -right-[5px] w-[10px] h-[10px] bg-white border-[1.5px] border-primary pointer-events-none" />
-          <div className="absolute -bottom-[5px] -left-[5px] w-[10px] h-[10px] bg-white border-[1.5px] border-primary pointer-events-none" />
-          <div className="absolute -bottom-[5px] -right-[5px] w-[10px] h-[10px] bg-white border-[1.5px] border-primary pointer-events-none" />
+        {/* Punchy heading replacing the old selection box */}
+        <h1
+          className="text-[clamp(1.75rem,4vw,2.75rem)] font-medium leading-[1.3] tracking-tight max-w-5xl mb-12 mt-6 text-center"
+          style={{ fontFamily: "'Montserrat', sans-serif" }}
+        >
+          Je conçois des produits <span className="text-primary font-semibold">simples à utiliser</span><br />et <span className="text-primary font-semibold">agréables à regarder</span>.
+        </h1>
 
-          <h1
-            className="text-[clamp(2.75rem,12vw,6rem)] font-light leading-[0.92] tracking-tight px-6 py-4 md:px-10 md:py-6"
-            style={{ fontFamily: "'DM Mono', monospace" }}
+        <div className="flex flex-col items-center gap-10 w-full">
+
+          {/* Ticker banner */}
+          <div 
+            className="w-full max-w-[650px] overflow-hidden relative select-none flex py-4 my-2 group-ticker"
+            style={{
+              maskImage: "linear-gradient(to right, transparent, black 15%, black 85%, transparent)",
+              WebkitMaskImage: "linear-gradient(to right, transparent, black 15%, black 85%, transparent)"
+            }}
           >
-            Portfolio
-          </h1>
-        </div>
-
-        <div className="flex flex-col items-center gap-10">
-          <p className="text-lg md:text-xl text-foreground/60 max-w-2xl leading-relaxed mx-auto">
-            Je conçois des produits numériques simples à utiliser et agréables à regarder. Moins de friction pour vos utilisateurs, plus de clarté pour votre business.
-          </p>
+            <div className="flex shrink-0 animate-marquee whitespace-nowrap gap-8 items-center pr-8">
+              {[
+                "APPLICATION MOBILE",
+                "SAAS",
+                "SITE INTERNET",
+                "DESIGN SYSTEM",
+                "VIBE CODING",
+                "INTÉGRATION HTML/CSS"
+              ].map((item, idx) => (
+                <Fragment key={"ticker-1-" + idx}>
+                  <span 
+                    className="relative group/item group-item cursor-pointer px-3 py-1.5 text-sm tracking-widest text-foreground/45 hover:text-primary transition-colors font-medium select-none"
+                    style={{ fontFamily: "'DM Mono', monospace" }}
+                  >
+                    {item}
+                    {/* Bounding box on hover */}
+                    <div className="absolute inset-0 opacity-0 group-hover/item:opacity-100 transition-opacity duration-150 pointer-events-none">
+                      <svg className="absolute inset-0 w-full h-full text-primary" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0" y="0" width="100%" height="100%" fill="none" stroke="currentColor" strokeWidth="1" strokeDasharray="3 2" />
+                      </svg>
+                      {/* Bounding Box handles */}
+                      <div className="absolute -top-[2px] -left-[2px] w-[5px] h-[5px] bg-white border border-primary" />
+                      <div className="absolute -top-[2px] -right-[2px] w-[5px] h-[5px] bg-white border border-primary" />
+                      <div className="absolute -bottom-[2px] -left-[2px] w-[5px] h-[5px] bg-white border border-primary" />
+                      <div className="absolute -bottom-[2px] -right-[2px] w-[5px] h-[5px] bg-white border border-primary" />
+                    </div>
+                  </span>
+                  <span className="text-primary font-bold opacity-60 text-sm">✦</span>
+                </Fragment>
+              ))}
+            </div>
+            
+            <div className="flex shrink-0 animate-marquee whitespace-nowrap gap-8 items-center pr-8" aria-hidden="true">
+              {[
+                "APPLICATION MOBILE",
+                "SAAS",
+                "SITE INTERNET",
+                "DESIGN SYSTEM",
+                "VIBE CODING",
+                "INTÉGRATION HTML/CSS"
+              ].map((item, idx) => (
+                <Fragment key={"ticker-2-" + idx}>
+                  <span 
+                    className="relative group/item group-item cursor-pointer px-3 py-1.5 text-sm tracking-widest text-foreground/45 hover:text-primary transition-colors font-medium select-none"
+                    style={{ fontFamily: "'DM Mono', monospace" }}
+                  >
+                    {item}
+                    {/* Bounding box on hover */}
+                    <div className="absolute inset-0 opacity-0 group-hover/item:opacity-100 transition-opacity duration-150 pointer-events-none">
+                      <svg className="absolute inset-0 w-full h-full text-primary" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0" y="0" width="100%" height="100%" fill="none" stroke="currentColor" strokeWidth="1" strokeDasharray="3 2" />
+                      </svg>
+                      {/* Bounding Box handles */}
+                      <div className="absolute -top-[2px] -left-[2px] w-[5px] h-[5px] bg-white border border-primary" />
+                      <div className="absolute -top-[2px] -right-[2px] w-[5px] h-[5px] bg-white border border-primary" />
+                      <div className="absolute -bottom-[2px] -left-[2px] w-[5px] h-[5px] bg-white border border-primary" />
+                      <div className="absolute -bottom-[2px] -right-[2px] w-[5px] h-[5px] bg-white border border-primary" />
+                    </div>
+                  </span>
+                  <span className="text-primary font-bold opacity-60 text-sm">✦</span>
+                </Fragment>
+              ))}
+            </div>
+          </div>
 
           <div className="flex items-center justify-center">
             <button

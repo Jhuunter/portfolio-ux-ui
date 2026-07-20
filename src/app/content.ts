@@ -1,7 +1,7 @@
 export const projects = [
   {
     id: "01",
-    title: "Selvitys — Plateforme web",
+    title: "Selvitys - Plateforme web",
     category: "Product Design · 2025 — Aujourd'hui",
     description:
       "Refonte complète de la plateforme, en collaboration étroite avec l'équipe dev. Repenser l'expérience de bout en bout pour la rendre plus intuitive et plus puissante.",
@@ -12,7 +12,7 @@ export const projects = [
   },
   {
     id: "02",
-    title: "Answer It — App mobile",
+    title: "Answer It - App mobile",
     category: "Product Design · 2025 — 2026",
     description:
       "Refonte complète de l'application mobile dédiée aux répondants de sondages, et de tout ce qui en découle : site vitrine, direction artistique, identité visuelle.",
