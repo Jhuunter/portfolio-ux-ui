@@ -189,7 +189,3 @@
     line-height: 1.5;
   }
 }
-
-.group-ticker:has(.group-item:hover) .animate-marquee {
-  animation-play-state: paused;
-}

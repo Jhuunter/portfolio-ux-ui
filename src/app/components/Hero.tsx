@@ -88,7 +88,7 @@ export const Hero = forwardRef<HTMLDivElement, HeroProps>(({ scrollTo }, ref) =>
               ].map((item, idx) => (
                 <Fragment key={"ticker-1-" + idx}>
                   <span 
-                    className="relative group/item group-item cursor-pointer px-3 py-1.5 text-sm tracking-widest text-foreground/45 hover:text-primary transition-colors font-medium select-none"
+                    className="relative group/item group-item cursor-default px-3 py-1.5 text-sm tracking-widest text-foreground/45 hover:text-primary transition-colors font-medium select-none"
                     style={{ fontFamily: "'DM Mono', monospace" }}
                   >
                     {item}
@@ -120,7 +120,7 @@ export const Hero = forwardRef<HTMLDivElement, HeroProps>(({ scrollTo }, ref) =>
               ].map((item, idx) => (
                 <Fragment key={"ticker-2-" + idx}>
                   <span 
-                    className="relative group/item group-item cursor-pointer px-3 py-1.5 text-sm tracking-widest text-foreground/45 hover:text-primary transition-colors font-medium select-none"
+                    className="relative group/item group-item cursor-default px-3 py-1.5 text-sm tracking-widest text-foreground/45 hover:text-primary transition-colors font-medium select-none"
                     style={{ fontFamily: "'DM Mono', monospace" }}
                   >
                     {item}
